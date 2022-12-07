@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {useTranslation} from "react-i18next";
+import {Trans, useTranslation} from "react-i18next";
 import "./translations/i18n";
 
 function App() {
@@ -18,6 +18,12 @@ function App() {
             <p>{t("inline-translation-with-variable", "This is an example of an inline translation with a [[{{variable}}]]", {
                 variable: "variable-value"
             })}</p>
+
+            <h3>Trans block</h3>
+            <Trans t={t} i18nKey="trans-block">
+                This is a trans block it spans multiple lines<br />
+                And also contains some <b>HTML</b>
+            </Trans>
         </div>
     );
 }

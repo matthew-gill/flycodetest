@@ -7,6 +7,7 @@ const DEFAULT_NS = "shared";
 // Add new namespace here - in alphabetical order
 const namespaces = [
     "flycode",
+    "secondcontext",
 ];
 
 // Add new language here

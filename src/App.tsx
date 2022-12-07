@@ -14,7 +14,7 @@ function App() {
 
                 <h2>Types of translation:</h2>
 
-                <h3>Inline translation:</h3>
+                <h3>Inline translation edited by flycode:</h3>
                 <p>{t("inline-translation", "This is an example of an inline translation")}</p>
 
                 <h3>Inline translation with variable:</h3>

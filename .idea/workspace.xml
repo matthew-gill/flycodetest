@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f585175-4b4e-4d7b-95d2-f89c94a89583" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/translations/locales/fr/flycode.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/locales/fr/secondcontext.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/translations/locales/fr/shared.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translations/locales/fr/flycode.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/locales/fr_FR/flycode.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translations/locales/fr/secondcontext.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/locales/fr_FR/secondcontext.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translations/locales/fr/shared.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/locales/fr_FR/shared.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

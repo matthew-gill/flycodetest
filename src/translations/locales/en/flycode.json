@@ -1,4 +1,14 @@
 {
+    "houses": {
+        "flamingo": "Flamingo",
+        "lassie": "Lassie",
+        "mountain-goat": "Mountain goat",
+        "penguin": "Penguin"
+    },
+
     "inline-translation": "This is an example of an inline translation",
-    "inline-translation-with-variable": "This is an example of an inline translation with a [[{{variable}}]]"
+    "inline-translation-with-variable": "This is an example of an inline translation with a [[{{variable}}]]",
+    "trans-block": "This is a trans block 123 it spans multiple lines<br/>And also contains some <3>HTML</3>",
+    "houses.flamingo": "Flamingo UI",
+    "houses.lassie": "Lassie UI"
 }

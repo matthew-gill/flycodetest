@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {useTranslation} from "react-i18next";
+import "./translations/i18n";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const {t} = useTranslation("flycode");
+    return (
+        <div>
+            <h1>Mention Me Flycode demo</h1>
+
+            <h2>Types of translation:</h2>
+
+            <h3>Inline translation:</h3>
+            <p>{t("inline-translation", "This is an example of an inline translation")}</p>
+
+            <h3>Inline translation with variable:</h3>
+            <p>{t("inline-translation-with-variable", "This is an example of an inline translation with a [[{{variable}}]]", {
+                variable: "variable-value"
+            })}</p>
+        </div>
+    );
 }
 
 export default App;

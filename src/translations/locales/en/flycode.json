@@ -1,0 +1,4 @@
+{
+    "inline-translation": "This is an example of an inline translation",
+    "inline-translation-with-variable": "This is an example of an inline translation with a [[{{variable}}]]"
+}

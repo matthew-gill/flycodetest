@@ -11,6 +11,8 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "i18next": "^22.0.8",
+    "i18next-http-backend": "^2.0.2",
+    "i18next-scanner": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^12.1.1",
@@ -19,6 +21,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "extract-translation-js": "i18next-scanner --config src/translations/scripts/extractTranslations.js 'src/**/*.{ts,tsx}'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

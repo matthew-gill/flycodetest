@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f585175-4b4e-4d7b-95d2-f89c94a89583" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/translations/locales/fr/flycode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/locales/fr/secondcontext.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/translations/locales/fr/shared.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translations/scripts/extractTranslations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/scripts/extractTranslations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/matt.gill/Projects/Work/flycode/src",
+    "last_opened_file_path": "/Users/matt.gill/Projects/Work/flycode/src/translations/locales",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/translations/locales" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>

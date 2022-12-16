@@ -5,7 +5,7 @@ import "./translations/i18n";
 import {DEFAULT_THEME, RadioGroup} from "@mention-me/flamingo-ui";
 import {ThemeProvider} from "styled-components";
 
-import Logo from './logo.svg'
+import Logo from './logo.jpg'
 
 function App() {
     const {t} = useTranslation("flycode");
